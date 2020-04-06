@@ -137,6 +137,14 @@ p {
 .header-dropdown-link {
     color: #FFF;
     text-decoration: none;
+    border: 1px solid transparent;
+    padding: 12px 10px;
+    border-radius: 6px;
+}
+
+.header-dropdown-link:hover,
+.header-dropdown-link:focus {
+    border: 1px solid #FFF;
 }
 
 .header-dropdown-link-content {
@@ -158,16 +166,18 @@ p {
 .dropdown li {
     list-style-type: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
 }
 
 .dropdown li:last-child {
     border-bottom: none;
 }
 
-.dropdown li:hover {
-    background-color: tomato;
+.dropdown li:hover,
+.dropdown li:focus {
+    background-color: #C4C4C4;
     cursor: pointer;
 }
 
