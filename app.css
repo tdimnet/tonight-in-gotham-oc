@@ -107,16 +107,17 @@ p {
 
 /* footer styles */
 .footer {
-    padding-left: 110px;
-    padding-top: 73px;
-    padding-bottom: 110px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 105px;
+    padding-top: 78px;
+    padding-right: 105px;
+    padding-bottom: 50px;
     background-color: #000;
+    display: flex;
 }
 
 .footer ul {
     margin-top: 0;
+    padding-left: 0;
 }
 
 .footer ul li {
@@ -126,6 +127,8 @@ p {
 
 .footer-navigation {
     display: flex;
+    /* We will need to remove this rule later */
+    margin-right: 50px;
 }
 
 .footer-navigation ul:first-child {
@@ -140,4 +143,9 @@ p {
 .footer-navigation-link {
     text-decoration: none;
     color: #FFF;
+}
+
+.footer-social-list {
+    margin-left: 40px;
+    margin-right: 40px;
 }
