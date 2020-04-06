@@ -53,6 +53,15 @@ p {
     margin-right: 44px;
 }
 
+.header-svg:hover {
+    background-color: #000;
+}
+
+.header-svg:hover path {
+    fill: #FFEA94;
+    stroke: #FFEA94;
+}
+
 .header-navigation {
     align-self: flex-end;
 }
@@ -73,6 +82,12 @@ p {
     color: white;
     text-decoration: none;
     font-size: 24px;
+    display: block;
+}
+
+.header-navigation-item:hover,
+.header-navigation-item:focus {
+    font-weight: 700;
 }
 
 .header-search {

@@ -5,30 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tonight In Gotham - OpenClassrooms</title>
 
-    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
     <header class="header" role="banner">
         <a aria-label="Tonight In Gothman" href="#" class="header-svg">
-            <svg role="img" width="130" height="46" viewBox="0 0 130 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg role="img" alt="Logo de Batman" width="130" height="46" viewBox="0 0 130 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M43.1341 0.512695H0.893433C19.9876 6.2592 21.2125 19.8957 19.4381 25.9957C61.5071 22.5752 65.2847 44.9797 65.2847 44.9797C69.7492 26.3378 97.8524 24.3424 110.96 25.6537C106.839 11.6979 121.835 3.0781 129.848 0.512695H86.7485C85.6496 9.95338 75.4156 11.0594 70.436 10.4323L69.2341 1.88091C68.6846 2.29138 68.0893 5.24444 67.8604 6.66966H62.5374C62.5374 5.71191 61.6216 3.19212 61.1637 2.05194L59.9617 10.4323C44.8512 10.4323 42.4473 3.81922 43.1341 0.512695Z" fill="black" stroke="black"/>
             </svg>
         </a>
         <nav role="navigation" class="header-navigation" aria-label="main navigation">
             <ul>
                 <li class="header-navigation-item">
-                    <a href="">Work</a>
+                    <a href="#">Work</a>
                 </li>
                 <li class="header-navigation-item">
-                    <a href="">Story</a>
+                    <a href="#">Story</a>
                 </li>
                 <li class="header-navigation-item">
-                    <a href="">Villians</a>
+                    <a href="#">Villians</a>
                 </li>
                 <li class="header-navigation-item">
-                    <a href="">Gadgets</a>
+                    <a href="#">Gadgets</a>
                 </li>
             </ul>
         </nav>
@@ -54,13 +54,13 @@
                 </svg>
             </div>
             <p>
-                <a class="header-dropdown-link" href="#">
-                <span class="header-dropdown-link-content">
-                    Batman
-                </span>
-                <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1.33447L8.00465 8.13311L14.5973 1.33447" stroke="#E9E9E9" stroke-width="2"/>
-                </svg>
+                <a class="header-dropdown-link" aria-haspopup="true" aria-expanded="false" href="#">
+                    <span class="header-dropdown-link-content">
+                        Batman
+                    </span>
+                    <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1.33447L8.00465 8.13311L14.5973 1.33447" stroke="#E9E9E9" stroke-width="2"/>
+                    </svg>
                 </a>
             </p>
             <ul class="dropdown">
@@ -184,5 +184,7 @@
             </h3>
         </div>
     </footer>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>
