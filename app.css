@@ -106,3 +106,38 @@ p {
 
 
 /* footer styles */
+.footer {
+    padding-left: 110px;
+    padding-top: 73px;
+    padding-bottom: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #000;
+}
+
+.footer ul {
+    margin-top: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer-navigation {
+    display: flex;
+}
+
+.footer-navigation ul:first-child {
+    margin-right: 30px;
+}
+
+.footer-navigation-title {
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+.footer-navigation-link {
+    text-decoration: none;
+    color: #FFF;
+}
