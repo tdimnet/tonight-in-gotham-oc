@@ -5,30 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tonight In Gotham - OpenClassrooms</title>
 
+    <link rel="stylesheet" href="./normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./app.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <div class="header-svg">
+            <svg width="130" height="46" viewBox="0 0 130 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M43.1341 0.512695H0.893433C19.9876 6.2592 21.2125 19.8957 19.4381 25.9957C61.5071 22.5752 65.2847 44.9797 65.2847 44.9797C69.7492 26.3378 97.8524 24.3424 110.96 25.6537C106.839 11.6979 121.835 3.0781 129.848 0.512695H86.7485C85.6496 9.95338 75.4156 11.0594 70.436 10.4323L69.2341 1.88091C68.6846 2.29138 68.0893 5.24444 67.8604 6.66966H62.5374C62.5374 5.71191 61.6216 3.19212 61.1637 2.05194L59.9617 10.4323C44.8512 10.4323 42.4473 3.81922 43.1341 0.512695Z" fill="black" stroke="black"/>
+            </svg>
+        </div>
+        <nav class="header-navigation" aria-label="main navigation">
             <ul>
-                <li>
+                <li class="header-navigation-item">
                     <a href="">Work</a>
                 </li>
-                <li>
+                <li class="header-navigation-item">
                     <a href="">Story</a>
                 </li>
-                <li>
+                <li class="header-navigation-item">
                     <a href="">Villians</a>
                 </li>
-                <li>
+                <li class="header-navigation-item">
                     <a href="">Gadgets</a>
                 </li>
             </ul>
         </nav>
-        <form action="">
-            <input type="search" placeholder="search">
+        <form class="header-search" action="">
+            <label class="sr-only" for="search">Search</label>
+            <input type="search" id="search" name="search" placeholder="search">
         </form>
-        <div>
+        <div class="header-dropdown">
             <p>Batman</p>
         </div>
     </header>
@@ -55,8 +63,8 @@
             My anger outweights my guilt. It was a dog. It was a big dog. This isn't a car. I'll be standing where l belong. Between you and the peopIe of <a href="#">Gotham</a>.
         </p>
     </main>
-    <footer>
-        <nav>
+    <footer role="contentinfo">
+        <nav aria-label="footer navigation">
             <ul>
                 <h3>Contact</h3>
                 <li>
@@ -116,7 +124,7 @@
         </ul>
         <div>
             <h3>Partners</h3>
-            
+
         </div>
     </footer>
 </body>
