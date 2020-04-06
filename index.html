@@ -10,78 +10,80 @@
     <link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
-    <header class="header" role="banner">
-        <a aria-label="Tonight In Gothman" href="#" class="header-svg">
-            <svg role="img" alt="Logo de Batman" width="130" height="46" viewBox="0 0 130 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M43.1341 0.512695H0.893433C19.9876 6.2592 21.2125 19.8957 19.4381 25.9957C61.5071 22.5752 65.2847 44.9797 65.2847 44.9797C69.7492 26.3378 97.8524 24.3424 110.96 25.6537C106.839 11.6979 121.835 3.0781 129.848 0.512695H86.7485C85.6496 9.95338 75.4156 11.0594 70.436 10.4323L69.2341 1.88091C68.6846 2.29138 68.0893 5.24444 67.8604 6.66966H62.5374C62.5374 5.71191 61.6216 3.19212 61.1637 2.05194L59.9617 10.4323C44.8512 10.4323 42.4473 3.81922 43.1341 0.512695Z" fill="black" stroke="black"/>
-            </svg>
-        </a>
-        <nav role="navigation" class="header-navigation" aria-label="main navigation">
-            <ul>
-                <li class="header-navigation-item">
-                    <a href="#">Work</a>
-                </li>
-                <li class="header-navigation-item">
-                    <a href="#">Story</a>
-                </li>
-                <li class="header-navigation-item">
-                    <a href="#">Villians</a>
-                </li>
-                <li class="header-navigation-item">
-                    <a href="#">Gadgets</a>
-                </li>
-            </ul>
-        </nav>
-        <form class="header-search" action="" role="search">
-            <label class="sr-only" for="search">Search</label>
-            <svg role="img" alt="" class="search-icon" width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="10" cy="10" r="9.5" stroke="white"/>
-                <line x1="17.3254" y1="15.6204" x2="24.3254" y2="21.6204" stroke="white"/>
-            </svg>
-            <input type="search" id="search" name="search" placeholder="search...">
-        </form>
-        <div class="header-dropdown">
-            <div class="header-dropdown-batman-icon-wrapper">
-                <svg role="img" alt="" class="header-dropdown-batman-icon" width="35" height="53" viewBox="0 0 35 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="22" width="35" height="31">
-                    <ellipse cx="17.4694" cy="37.0239" rx="16.5717" ry="15.0137" fill="#C4C4C4"/>
-                    </mask>
-                    <g mask="url(#mask0)">
-                    <rect x="-1.55737" y="0.509216" width="38.0535" height="31.3248" fill="#C4C4C4"/>
-                    </g>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5291 0.197937V8.93256C10.3446 9.57737 10.2458 10.2584 10.2458 10.9624C10.2458 15.0301 13.5434 18.3276 17.611 18.3276C21.6787 18.3276 24.9762 15.0301 24.9762 10.9624C24.9762 10.468 24.9275 9.9849 24.8346 9.51776V0.481201L23.1078 6.0601C21.759 4.54877 19.7961 3.59723 17.611 3.59723C15.517 3.59723 13.627 4.47114 12.286 5.87414L10.5291 0.197937Z" fill="#C4C4C4"/>
-                    <path d="M10.5291 8.93256L11.0098 9.07009L11.0291 9.00268V8.93256H10.5291ZM10.5291 0.197937L11.0068 0.0500952L10.0291 0.197937H10.5291ZM24.8346 9.51776H24.3346V9.56699L24.3442 9.61529L24.8346 9.51776ZM24.8346 0.481201H25.3346L24.357 0.333359L24.8346 0.481201ZM23.1078 6.0601L22.7348 6.39303L23.3238 7.05308L23.5854 6.20794L23.1078 6.0601ZM12.286 5.87414L11.8084 6.02199L12.0599 6.83441L12.6475 6.21962L12.286 5.87414ZM11.0291 8.93256V0.197937H10.0291V8.93256H11.0291ZM10.7458 10.9624C10.7458 10.3053 10.838 9.67062 11.0098 9.07009L10.0484 8.79503C9.85126 9.48411 9.74585 10.2114 9.74585 10.9624H10.7458ZM17.611 17.8276C13.8195 17.8276 10.7458 14.754 10.7458 10.9624H9.74585C9.74585 15.3062 13.2672 18.8276 17.611 18.8276V17.8276ZM24.4762 10.9624C24.4762 14.754 21.4026 17.8276 17.611 17.8276V18.8276C21.9549 18.8276 25.4762 15.3062 25.4762 10.9624H24.4762ZM24.3442 9.61529C24.4308 10.0505 24.4762 10.5009 24.4762 10.9624H25.4762C25.4762 10.435 25.4242 9.91932 25.325 9.42023L24.3442 9.61529ZM24.3346 0.481201V9.51776H25.3346V0.481201H24.3346ZM23.5854 6.20794L25.3122 0.629043L24.357 0.333359L22.6302 5.91226L23.5854 6.20794ZM17.611 4.09723C19.6477 4.09723 21.4768 4.9835 22.7348 6.39303L23.4808 5.72717C22.0412 4.11405 19.9445 3.09723 17.611 3.09723V4.09723ZM12.6475 6.21962C13.8981 4.91121 15.6591 4.09723 17.611 4.09723V3.09723C15.3749 3.09723 13.356 4.03107 11.9246 5.52867L12.6475 6.21962ZM10.0515 0.345779L11.8084 6.02199L12.7637 5.7263L11.0068 0.0500952L10.0515 0.345779Z" fill="#C4C4C4"/>
+    <div class="header-wrapper">
+        <header class="header" role="banner">
+            <a aria-label="Tonight In Gothman" href="#" class="header-svg">
+                <svg role="img" alt="Logo de Batman" width="130" height="46" viewBox="0 0 130 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M43.1341 0.512695H0.893433C19.9876 6.2592 21.2125 19.8957 19.4381 25.9957C61.5071 22.5752 65.2847 44.9797 65.2847 44.9797C69.7492 26.3378 97.8524 24.3424 110.96 25.6537C106.839 11.6979 121.835 3.0781 129.848 0.512695H86.7485C85.6496 9.95338 75.4156 11.0594 70.436 10.4323L69.2341 1.88091C68.6846 2.29138 68.0893 5.24444 67.8604 6.66966H62.5374C62.5374 5.71191 61.6216 3.19212 61.1637 2.05194L59.9617 10.4323C44.8512 10.4323 42.4473 3.81922 43.1341 0.512695Z" fill="black" stroke="black"/>
                 </svg>
-            </div>
-            <p>
-                <a class="header-dropdown-link" aria-haspopup="true" aria-expanded="false" href="#">
-                    <span class="header-dropdown-link-content">
-                        Batman
-                    </span>
-                    <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1.33447L8.00465 8.13311L14.5973 1.33447" stroke="#E9E9E9" stroke-width="2"/>
+            </a>
+            <nav role="navigation" class="header-navigation" aria-label="main navigation">
+                <ul>
+                    <li class="header-navigation-item">
+                        <a href="#">Work</a>
+                    </li>
+                    <li class="header-navigation-item">
+                        <a href="#">Story</a>
+                    </li>
+                    <li class="header-navigation-item">
+                        <a href="#">Villians</a>
+                    </li>
+                    <li class="header-navigation-item">
+                        <a href="#">Gadgets</a>
+                    </li>
+                </ul>
+            </nav>
+            <form class="header-search" action="" role="search">
+                <label class="sr-only" for="search">Search</label>
+                <svg role="img" alt="" class="search-icon" width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="9.5" stroke="white"/>
+                    <line x1="17.3254" y1="15.6204" x2="24.3254" y2="21.6204" stroke="white"/>
+                </svg>
+                <input type="search" id="search" name="search" placeholder="search...">
+            </form>
+            <div class="header-dropdown">
+                <div class="header-dropdown-batman-icon-wrapper">
+                    <svg role="img" alt="" class="header-dropdown-batman-icon" width="35" height="53" viewBox="0 0 35 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="22" width="35" height="31">
+                        <ellipse cx="17.4694" cy="37.0239" rx="16.5717" ry="15.0137" fill="#C4C4C4"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                        <rect x="-1.55737" y="0.509216" width="38.0535" height="31.3248" fill="#C4C4C4"/>
+                        </g>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5291 0.197937V8.93256C10.3446 9.57737 10.2458 10.2584 10.2458 10.9624C10.2458 15.0301 13.5434 18.3276 17.611 18.3276C21.6787 18.3276 24.9762 15.0301 24.9762 10.9624C24.9762 10.468 24.9275 9.9849 24.8346 9.51776V0.481201L23.1078 6.0601C21.759 4.54877 19.7961 3.59723 17.611 3.59723C15.517 3.59723 13.627 4.47114 12.286 5.87414L10.5291 0.197937Z" fill="#C4C4C4"/>
+                        <path d="M10.5291 8.93256L11.0098 9.07009L11.0291 9.00268V8.93256H10.5291ZM10.5291 0.197937L11.0068 0.0500952L10.0291 0.197937H10.5291ZM24.8346 9.51776H24.3346V9.56699L24.3442 9.61529L24.8346 9.51776ZM24.8346 0.481201H25.3346L24.357 0.333359L24.8346 0.481201ZM23.1078 6.0601L22.7348 6.39303L23.3238 7.05308L23.5854 6.20794L23.1078 6.0601ZM12.286 5.87414L11.8084 6.02199L12.0599 6.83441L12.6475 6.21962L12.286 5.87414ZM11.0291 8.93256V0.197937H10.0291V8.93256H11.0291ZM10.7458 10.9624C10.7458 10.3053 10.838 9.67062 11.0098 9.07009L10.0484 8.79503C9.85126 9.48411 9.74585 10.2114 9.74585 10.9624H10.7458ZM17.611 17.8276C13.8195 17.8276 10.7458 14.754 10.7458 10.9624H9.74585C9.74585 15.3062 13.2672 18.8276 17.611 18.8276V17.8276ZM24.4762 10.9624C24.4762 14.754 21.4026 17.8276 17.611 17.8276V18.8276C21.9549 18.8276 25.4762 15.3062 25.4762 10.9624H24.4762ZM24.3442 9.61529C24.4308 10.0505 24.4762 10.5009 24.4762 10.9624H25.4762C25.4762 10.435 25.4242 9.91932 25.325 9.42023L24.3442 9.61529ZM24.3346 0.481201V9.51776H25.3346V0.481201H24.3346ZM23.5854 6.20794L25.3122 0.629043L24.357 0.333359L22.6302 5.91226L23.5854 6.20794ZM17.611 4.09723C19.6477 4.09723 21.4768 4.9835 22.7348 6.39303L23.4808 5.72717C22.0412 4.11405 19.9445 3.09723 17.611 3.09723V4.09723ZM12.6475 6.21962C13.8981 4.91121 15.6591 4.09723 17.611 4.09723V3.09723C15.3749 3.09723 13.356 4.03107 11.9246 5.52867L12.6475 6.21962ZM10.0515 0.345779L11.8084 6.02199L12.7637 5.7263L11.0068 0.0500952L10.0515 0.345779Z" fill="#C4C4C4"/>
                     </svg>
-                </a>
-            </p>
-            <ul class="dropdown">
-                <li>
-                    <a href="">
-                        My villians
+                </div>
+                <p>
+                    <a class="header-dropdown-link" aria-haspopup="true" aria-expanded="false" href="#">
+                        <span class="header-dropdown-link-content">
+                            Batman
+                        </span>
+                        <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1.33447L8.00465 8.13311L14.5973 1.33447" stroke="#E9E9E9" stroke-width="2"/>
+                        </svg>
                     </a>
-                </li>
-                <li>
-                    <a href="">
-                        My gadgets
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Switch profile
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </header>
+                </p>
+                <ul class="dropdown">
+                    <li>
+                        <a href="">
+                            My villians
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            My gadgets
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Switch profile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
     <main class="content">
         <section>
             <h1>Tonight In Gotham</h1>

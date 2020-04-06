@@ -36,8 +36,13 @@ p {
 
 
 /* header styles */
+.header-wrapper {
+    background-image: url('../images/header-bg.jpg');
+    height: 300px;
+}
+
 .header {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, .78);
     padding: 35px 53px;
     display: flex;
 }
@@ -214,6 +219,11 @@ p {
 .content-link {
     background-color: #FCD530;
     color: #000;
+}
+
+.content-link:hover,
+.content-link:focus {
+    font-weight: 700;
 }
 
 /* aside styles */
