@@ -89,9 +89,10 @@ p {
     background-color: #FFF;
     padding-top: 78px;
     padding-bottom: 50px;
-    max-width: 764px;
+    width: 764px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 22px;
 }
 
 .content .decorative-aside {
@@ -128,6 +129,15 @@ p {
 
 .footer-navigation {
     display: flex;
+    width: 764px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-navigation ul {
+    padding-left: 0;
+    margin-right: 80px;
+    line-height: 25px;
 }
 
 .footer-title {
@@ -138,4 +148,16 @@ p {
 .footer-navigation-link {
     text-decoration: none;
     color: #FFF;
+}
+
+.footer-social-icon {
+    margin-right: 10px;
+}
+
+.footer-social-icon:last-child {
+    margin-right: unset;
+}
+
+.footer-patterns {
+    padding-left: 40px;
 }
