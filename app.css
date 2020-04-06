@@ -87,10 +87,11 @@ p {
 
 .content section {
     background-color: #FFF;
-    padding-left: 105px;
     padding-top: 78px;
-    padding-right: 105px;
     padding-bottom: 50px;
+    max-width: 764px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content .decorative-aside {
@@ -104,38 +105,32 @@ p {
     color: #000;
 }
 
+/* aside styles */
+.decorative-aside {
+    position: relative;
+}
+
+.decorative-aside-image {
+    position: absolute;
+    left: -100px;
+    top: 240px;
+}
+
 
 /* footer styles */
 .footer {
-    padding-left: 105px;
     padding-top: 78px;
-    padding-right: 105px;
     padding-bottom: 50px;
     background-color: #000;
-    display: flex;
-}
-
-.footer ul {
-    margin-top: 0;
-    padding-left: 0;
-}
-
-.footer ul li {
-    list-style: none;
-    line-height: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 .footer-navigation {
     display: flex;
-    /* We will need to remove this rule later */
-    margin-right: 50px;
 }
 
-.footer-navigation ul:first-child {
-    margin-right: 30px;
-}
-
-.footer-navigation-title {
+.footer-title {
     margin-bottom: 30px;
     color: #FFF;
 }
@@ -143,9 +138,4 @@ p {
 .footer-navigation-link {
     text-decoration: none;
     color: #FFF;
-}
-
-.footer-social-list {
-    margin-left: 40px;
-    margin-right: 40px;
 }
