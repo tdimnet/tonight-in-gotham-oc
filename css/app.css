@@ -23,15 +23,15 @@ p {
 }
 
 .sr-only {
-    position: absolute;
-    width: 1px;
+    border: 0;
+    clip: rect(0,0,0,0);
     height: 1px;
-    padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0,0,0,0);
+    padding: 0;
+    position: absolute;
     white-space: nowrap;
-    border: 0;
+    width: 1px;
 }
 
 
@@ -43,19 +43,19 @@ p {
 
 .header {
     background-color: rgba(0, 0, 0, .78);
-    padding: 35px 53px;
     display: flex;
+    padding: 35px 53px;
 }
 
 .header-svg {
-    height: 146px;
-    width: 146px;
-    background-color: #FFEA94;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: #FFEA94;
     border-radius: 50%;
+    display: flex;
+    height: 146px;
+    justify-content: center;
     margin-right: 44px;
+    width: 146px;
 }
 
 .header-svg:hover {
@@ -72,22 +72,22 @@ p {
 }
 
 .header-navigation ul {
-    display: flex; 
     align-items: center;
+    display: flex; 
 }
 
 .header-navigation-item {
     border-left: 1px solid #FFF;
-    padding-left: 11px;
     list-style: none;
+    padding-left: 11px;
     width: 120px;
 }
 
 .header-navigation-item a {
     color: white;
-    text-decoration: none;
-    font-size: 24px;
     display: block;
+    font-size: 24px;
+    text-decoration: none;
 }
 
 .header-navigation-item:hover,
@@ -101,21 +101,21 @@ p {
 }
 
 .search-icon {
-    position: absolute;
     left: 20px;
+    position: absolute;
     top: 12px;
 }
 
 .header-search input[type='search'] {
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
+    background-color: transparent;
     border-radius: 50px;
     border: 1px solid #FFF;
+    color: #FFF;
+    margin-right: 63px;
     padding: 14px 16px 14px 54px;
     width: 220px;
-    margin-right: 63px;
-    background-color: transparent;
-    color: #FFF;
 }
 
 .header-search input[type='search']:focus,
@@ -131,13 +131,13 @@ p {
 
 .header-dropdown-batman-icon-wrapper {
     background-color: #313131;
-    height: 57px;
-    width: 57px;
-    display: flex;
-    justify-content: center;
     border-radius: 50%;
-    position: relative;
+    display: flex;
+    height: 57px;
+    justify-content: center;
     margin-right: 13px;
+    position: relative;
+    width: 57px;
 }
 
 .header-dropdown-batman-icon {
@@ -146,11 +146,11 @@ p {
 }
 
 .header-dropdown-link {
-    color: #FFF;
-    text-decoration: none;
-    border: 1px solid transparent;
-    padding: 12px 10px;
     border-radius: 6px;
+    border: 1px solid transparent;
+    color: #FFF;
+    padding: 12px 10px;
+    text-decoration: none;
 }
 
 .header-dropdown-link:hover,
@@ -163,23 +163,23 @@ p {
 }
 
 .dropdown {
+    background-color: #313131;
+    border-radius: 4px;
+    border: 1px solid white;
+    display: none;
     padding-left: 0;
     position: absolute;
     right: 40px;
     top: 90px;
-    background-color: #313131;
-    border: 1px solid white;
-    border-radius: 4px;
     z-index: 10;
-    display: none;
 }
 
 .dropdown li {
-    list-style-type: none;
+    background-color: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    list-style-type: none;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: transparent;
 }
 
 .dropdown li:last-child {
@@ -193,10 +193,10 @@ p {
 }
 
 .dropdown a {
-    text-decoration: none;
     color: #FFF;
     display: block;
     padding: 10px 15px;
+    text-decoration: none;
 }
 
 
@@ -208,12 +208,12 @@ p {
 
 .content section {
     background-color: #FFF;
-    padding-top: 78px;
-    padding-bottom: 50px;
-    width: 764px;
+    line-height: 22px;
     margin-left: auto;
     margin-right: auto;
-    line-height: 22px;
+    padding-bottom: 50px;
+    padding-top: 78px;
+    width: 764px;
 }
 
 .content-link {
@@ -228,8 +228,8 @@ p {
 
 /* aside styles */
 .decorative-aside {
-    position: relative;
     height: 100%;
+    position: relative;
     width: 100%;
 }
 
@@ -238,8 +238,8 @@ p {
 }
 
 .decorative-aside-image {
-    position: absolute;
     left: -100px;
+    position: absolute;
     top: 240px;
 }
 
@@ -257,43 +257,43 @@ p {
 .weekly-content-table th,
 .weekly-content-table td {
     border: 1px solid #C4C4C4;
-    vertical-align: top;
     padding: 2px 5px;
     text-align: center;
+    vertical-align: top;
 }
 
 /* footer styles */
 .footer {
-    padding-top: 78px;
-    padding-bottom: 50px;
     background-image: url('../images/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-bottom: 50px;
+    padding-top: 78px;
 }
 
 .footer-navigation {
     display: flex;
-    width: 764px;
     margin-left: auto;
     margin-right: auto;
+    width: 764px;
 }
 
 .footer-navigation ul {
-    padding-left: 0;
-    margin-right: 80px;
     line-height: 25px;
+    margin-right: 80px;
+    padding-left: 0;
 }
 
 .footer-title {
-    margin-bottom: 30px;
     color: #FFF;
+    margin-bottom: 30px;
 }
 
 .footer-navigation-link {
-    text-decoration: none;
     color: #FFF;
+    text-decoration: none;
 }
 
 .footer-navigation-link:hover,
