@@ -118,6 +118,12 @@ p {
     color: #FFF;
 }
 
+.header-search input[type='search']:focus,
+.header-search input[type='search']:hover {
+    border: 3px solid #FFF;
+    padding: 12px 16px 14px 52px;
+}
+
 .header-dropdown {
     color: #FFF;
     display: flex;
