@@ -238,6 +238,24 @@ p {
 }
 
 
+/* Weekly content styles */
+.weekly-content-table {
+    border: 1px solid #C4C4C4;
+    border-collapse: collapse;
+}
+
+.weekly-content-table th {
+    background-color: #FCD530;
+}
+
+.weekly-content-table th,
+.weekly-content-table td {
+    border: 1px solid #C4C4C4;
+    vertical-align: top;
+    padding: 2px 5px;
+    text-align: center;
+}
+
 /* footer styles */
 .footer {
     padding-top: 78px;
